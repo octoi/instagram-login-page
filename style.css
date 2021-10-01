@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --bg-color: #fafafa;
+  --primary-text-color: #000000;
+  --secondary-text-color: #8e8e8e;
+  --accent-color: #0095f6;
+  --secondary-accent-color: #b2dffc;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--primary-text-color);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.phone-image {
+  width: 520px;
+}
