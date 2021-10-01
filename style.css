@@ -46,7 +46,18 @@ body {
   height: 50px;
   padding: 10px;
   outline: none;
-  border: 1px solid var(--secondary-text-color);
+  border: none;
   background: var(--bg-color);
   border-radius: 2px;
+}
+
+.form button {
+  width: 100%;
+  background: var(--secondary-accent-color);
+  color: var(--bg-color);
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  border-radius: 5px;
 }
