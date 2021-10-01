@@ -58,6 +58,15 @@ body {
   padding: 10px;
   border: none;
   outline: none;
-  margin-top: 5px;
+  margin-top: 15px;
   border-radius: 5px;
+  height: 40px;
+}
+
+.form a {
+  margin-top: 10px;
+  color: #385185;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: sans-serif;
 }
