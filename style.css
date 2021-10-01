@@ -70,3 +70,24 @@ body {
   text-decoration: none;
   font-family: sans-serif;
 }
+
+.signup {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.signup a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.signup span {
+  font-weight: 600;
+  color: var(--accent-color);
+}
